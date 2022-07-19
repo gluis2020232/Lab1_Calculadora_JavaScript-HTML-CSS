@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@100&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="./assets/css/estiloPrincipal.css">
+
+        <!--Importacion de javaScrip-->
+        <script src="./assets/js/Calculadora.js" type="text/javascript"></script>
+        <script src="./assets/js/Display.js" type="text/javascript"></script>
+        <script src="./assets/js/index.js" type="text/javascript" defer></script>
+        <!--Importacion de javaScrip-->
+
+        <title>Calculadora</title>
+    </head>
+
+    <body>
+
+        <div>
+            <header>
+                <h1>Calculadora Realizada con HTML, CSS y JavaScript</h1>
+                <h1 id="autor">Autor: Genrry Uwualdo Luis Alvarado</h1>
+            </header>
+        </div>
+        
+        <div class="container">
+            <div class="calculadora">
+                <div class="display">
+                    <div id="valor-anterior"></div>
+                    <div id="valor-actual"></div>
+                </div>
+                <button class="col-2" onclick="display.borrarTodo()" id="operadores">C</button>
+                <button onclick="display.borrar()" id="operadores">&larr;</button>
+                <button class="operador" value="dividir" id="operadores">÷</button>
+                <button class="numero">7</button>
+                <button class="numero">8</button>
+                <button class="numero">9</button>
+                <button class="operador" value="multiplicar" id="operadores">X</button>
+                <button class="numero">4</button>
+                <button class="numero">5</button>
+                <button class="numero">6</button>
+                <button class="operador" value="restar" id="operadores">-</button>
+                <button class="numero">1</button>
+                <button class="numero">2</button>
+                <button class="numero">3</button>
+                <button class="operador" value="sumar" id="operadores">+</button>
+                <button class="col-2 numero" id="operadores">0</button>
+                <button class="numero" id="operadores">.</button>
+                <button class="operador" value="igual" id="operadores">=</button>
+            </div>
+        </div>
+
+        <section class="enlace">
+            <p>Puede acceder al siguiente enlace donde me guíe para realizar la Calculadora</p>
+            <a href="https://www.youtube.com/watch?v=7YDagj3cVAk">https://www.youtube.com/watch?v=7YDagj3cVAk</a>
+        </section>
+
+        <br/>
+
+        <footer>
+            <p>Todos los derechos reservados (c) <a href="https://www.youtube.com/channel/UC28QlbxmLBLEsVTjJdocXUw">Genrry Luis</a>
+            </p>
+        </footer>
+
+    </body>
+
+</html>
